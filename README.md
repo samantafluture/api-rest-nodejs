@@ -4,9 +4,21 @@
 
 - Node.js
 - NPM
+- Express
+- MySQL (v 8.0)
+- Postman
+
+## Como usar
+
+Use o NPM para rodar o projeto e colocá-lo no ar.
+
+`npm start`
+
+Instale as seguintes libs:
 - Nodemon
 - Consign
 - Moment
-- Express
-- MySQL
-- Postman
+
+## API no ar
+
+Acesse [/atendimentos](http://localhost:3000/atendimentos) no seu localhost.
