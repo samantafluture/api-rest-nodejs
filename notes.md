@@ -23,6 +23,10 @@
 
 - agrupar as rotas que for criando (em outros módulos) e colocar tudo dentro ao app
 
+## Body-parser
+
+- lib para ajudar a ler o corpo da requisição feita
+
 ## Organização de pastas
 
 - controllers
