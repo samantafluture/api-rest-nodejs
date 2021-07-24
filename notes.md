@@ -36,3 +36,9 @@
 - infra
     - envolve infra como banco de dados
     - conecta com banco de dados
+- models
+    - validações
+    - regras de negócio
+    - lógicas
+
+    

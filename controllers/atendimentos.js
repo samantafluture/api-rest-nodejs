@@ -1,5 +1,8 @@
 // Controla a rota de atendimentos
 
+// Importa model atendimento
+const Atendimento = require("../models/atendimentos");
+
 module.exports = (app) => {
   // GET: recebe dados
   app.get("/atendimentos", (req, res) =>
@@ -8,7 +11,12 @@ module.exports = (app) => {
 
   // POST: envia dados
   app.post("/atendimentos", (req, res) => {
-    console.log(req.body);
-    res.send("Você está na rota de atendimento e está realizando um POST");
+
+    // O conteúdo do body é um atendimento
+    const atendimento = req.body;
+
+    // O atendimento vai adicionar um atendimento rs
+    Atendimento.adiciona(atendimento);
+    res.send("Post atendimento");
   });
 };
