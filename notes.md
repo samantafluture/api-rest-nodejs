@@ -33,3 +33,6 @@
     - gerenciar / controlar rotas
 - config
     - pasta referente às configurações do app
+- infra
+    - envolve infra como banco de dados
+    - conecta com banco de dados
