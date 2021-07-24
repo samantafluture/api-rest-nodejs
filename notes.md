@@ -13,6 +13,9 @@
 
 - exemplo de rota: "/atendimentos"
 - local na url 
+- rotas de alteração:
+    - PUT usa quando o objeto inteiro será alterado
+    - PATCH usa quando altera apenas um campo
 
 ## Nodemon
 
@@ -41,4 +44,3 @@
     - regras de negócio
     - lógicas
 
-    

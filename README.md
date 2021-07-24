@@ -6,6 +6,7 @@
 - NPM
 - Nodemon
 - Consign
+- Moment
 - Express
 - MySQL
 - Postman
